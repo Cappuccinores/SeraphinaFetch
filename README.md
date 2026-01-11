@@ -17,7 +17,9 @@ This is the basic template that started it all
 https://gist.github.com/geek0x23/53d9e92733fcbcc0b0989742d2cacf83
 
 
-https://www.lennyfacecopypaste.com/text-symbols/heart.html (Lenny Face) | https://www.nerdfonts.com/ (Nerd Fonts) | https://en.wikipedia.org/wiki/Box-drawing_characters (Wikipedia - Box Drawing Characters)
+https://www.lennyfacecopypaste.com/text-symbols/heart.html (Lenny Face)
+https://www.nerdfonts.com/ (Nerd Fonts) 
+https://en.wikipedia.org/wiki/Box-drawing_characters (Wikipedia - Box Drawing Characters)
 
 
 
