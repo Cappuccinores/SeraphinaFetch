@@ -1,0 +1,36 @@
+// Templates
+
+// TOP
+        {
+            "key": "╭──────────────────╮",
+            "type": "custom"
+        },
+// INTERSECTION
+        {
+            "key": "{#38;2;255;110;235}├─────────────────────────┤",
+            "type": "custom"
+        },
+// STORAGE
+        {
+            "key": "│ {#38;2;255;70;205}󰉉 /         {#keys}│ ❥ ",
+            "type": "disk",
+            "showRegular": true,
+            "folders": "/",
+            "hidefolders": "",
+            "percent": {
+              "green": 50,
+              "yellow": 80,
+              "red": 100,
+              "type": 0
+            }
+        },
+// EMPTY MODULE
+        {
+            "key": "│ {#38;2;255;180;255}󰇄                {#keys}│ ❥ ",
+            "type": ""
+        },
+// BOTTOM
+        {
+            "key": "╰────────────────────────────────╯",
+            "type": "custom"
+        }
