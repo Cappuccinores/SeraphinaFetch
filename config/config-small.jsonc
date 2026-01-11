@@ -1,0 +1,196 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "logo": {
+    "type": "auto",
+    "source": "~/Fastfetch/logos/Elysia22.png", // path/to/logo
+        "width": 30,
+        "padding": {
+            "top": 0,
+            "right": 0,
+            "left": 0,
+            "bottom": 0
+    },
+    "printRemaining": false,
+    "preserveAspectRatio": false,
+    "recache": false,
+    "position": "left",
+    "chafa": {
+      "fgOnly": false,
+      "symbols": "ascii-extra-geometric-space-solid-block+border+space-wide-inverted-dot-quad-half-hhalf-vhalf-braille-technical"
+    }
+  },
+  "display": {
+    "stat": false,
+    "pipe": false,
+    "showErrors": false,
+    "disableLinewrap": true,
+    "hideCursor": false,
+    "separator": "",
+    "color": {
+      "keys": "38;2;255;145;235",
+      "output": "38;2;255;130;215",
+      "separator": "38;2;150;255;200"
+    }
+  },
+  "modules": [
+      {
+            "key": "{#38;2;255;180;255}{#keys}(SeraphinaFetch)",
+            "type": "version"
+      },
+              // SESSION SECTION
+      {
+            "key": "╭─────────Session─────────╮",
+            "type": "custom"
+      },
+      {
+            "key": "│ {#38;2;255;170;255}  User / Host          {#keys}│ ❥ ",
+            "type": "title",
+            "format": "{user-name} 󰋑 {host-name}"
+      },
+      {
+            "key": "│ {#38;2;255;160;255}󰅐  Time / Date          {#keys}│ ❥ ",
+            "type": "datetime",
+            "format": "{hour-pretty}:{minute-pretty}:{second-pretty} {timezone-name}, {day-pretty}-{month-pretty}-{year}"
+      },
+      {
+            "key": "│ {#38;2;255;150;255}󰃰  Uptime               {#keys}│ ❥ ",
+            "type": "uptime"
+      },
+      {
+            "key": "│ {#38;2;255;140;255}  Active Processes     {#keys}│ ❥ ",
+            "type": "processes"
+      },
+      {
+            "key": "│ {#38;2;255;130;255}󰁹  Battery Percentage   {#keys}│ ❥ ",
+            "type": "battery"
+      },      
+      {
+            "key": "├───────Environment───────┤{#keys} ",
+            "type": "custom"
+      },
+      {
+            "key": "│ {#38;2;255;110;255}󰍂  Log-in Manager       {#keys}│ ❥ ",
+            "type": "lm"
+      },
+      {
+            "key": "│ {#38;2;255;100;255}󱂬  Window Manager       {#keys}│ ❥ ",
+            "type": "wm"
+      },
+      {
+            "key": "│ {#38;2;255;90;255}󰇄  Desktop Environment  {#keys}│ ❥ ",
+            "type": "de"
+      },
+      {
+            "key": "│ {#38;2;255;90;245}  Theme                {#keys}│ ❥ ",
+            "type": "theme"
+      },
+      {
+            "key": "│ {#38;2;255;100;235}  Shell                {#keys}│ ❥ ",
+            "type": "shell"
+      },
+      {
+            "key": "│ {#38;2;255;110;225}  Terminal             {#keys}│ ❥ ",
+            "type": "terminal"
+      },
+      {
+            "key": "├──────────Media──────────┤{#keys} ",
+            "type": "custom"
+      },
+      {
+            "key": "│ {#38;2;255;120;215}󱡏  Media Player         {#keys}│ ❥ ",
+            "type": "player"
+      },
+      {
+            "key": "│ {#38;2;255;130;205}  Played Media         {#keys}│ ❥ ",
+            "type": "media"
+      },
+      {
+            "key": "╰─────────────────────────╯",
+            "type": "custom"
+      },
+            // SOFTWARE SECTION
+      {
+            "key": "╭───────Boot Systems──────╮{#keys}",
+            "type": "custom"
+      },
+      {
+            "key": "│ {#38;2;245;130;205}  Boot Manager         {#keys}│ ❥ ",
+            "type": "bootmgr"
+      },
+      {
+            "key": "├─────Operating System────┤",
+            "type": "custom"
+      },
+      {
+            "key": "│ {#38;2;225;110;215}{icon}  Operating System     {#keys}│ ❥ ",
+            "type": "os"
+      },
+      {
+            "key": "│ {#38;2;215;100;205}  Kernel               {#keys}│ ❥ ",
+            "type": "kernel"
+      },
+      {
+            "key": "├────────Software─────────┤",
+            "type": "custom"
+      },
+      {
+            "key": "│ {#38;2;235;80;185}  Installed Packages   {#keys}│ ❥ ",
+            "type": "packages"
+      },
+      {
+            "key": "╰─────────────────────────╯",
+            "type": "custom"
+      },
+              // HARDWARE SECTION
+      {
+            "key": "╭─────────Hardware────────╮",
+            "type": "custom"
+      },
+      {
+            "key": "│ {#38;2;245;70;175}󰇅  Device Type          {#keys}│ ❥ ",
+            "type": "chassis"
+      },
+      {
+            "key": "│ {#38;2;255;80;165}  Mother-/Mainboard    {#keys}│ ❥ ",
+            "type": "board"
+      },
+      {
+            "key": "│ {#38;2;245;85;155}  Processor (CPU)      {#keys}│ ❥ ",
+            "type": "cpu",
+            "showPeCoreCount": true,
+            "temp": true
+      },
+      {
+            "key": "│ {#38;2;235;90;145}󱊈  Graphics Card (GPU)  {#keys}│ ❥ ",
+            "type": "gpu",
+            "driverSpecific": true,
+            "temp": true
+      },
+      {
+            "key": "│ {#38;2;245;95;155}  Memory (RAM)         {#keys}│ ❥ ",
+            "type": "memory"
+      },
+      {
+            "key": "├─────────Storage─────────┤",
+            "type": "custom"
+      },
+      {
+            "key": "│ {#38;2;255;95;165}  Drive Partition      {#keys}│ ❥ ",
+            "type": "disk",
+            "format": "{size-used} / {size-total} ({size-percentage}) {mountpoint}"
+      },
+      {
+            "key": "├───────Peripherals───────┤",
+            "type": "custom"
+      },
+      {
+            "key": "│ {#38;2;255;90;175}󰍺  Display              {#keys}│ ❥ ",
+            "type": "display",
+            "preciseRefreshRate": true
+      },
+      {
+            "key": "╰─────────────────────────╯",
+            "type": "custom"
+      }
+    ]
+}
