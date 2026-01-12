@@ -8,7 +8,7 @@ The templates I used to make writing it a little easier are also included!
 Full Version (/config/config.jsonc)
 <img width="965" height="928" alt="image" src="https://github.com/user-attachments/assets/bad06673-5a89-4507-9aab-36f9b87adaa5" />
 
-Pink Version :D (/config/config-pink.jsonc
+Smaller, Pink Version :D (/config/config-pink-small.jsonc
 <img width="958" height="782" alt="image" src="https://github.com/user-attachments/assets/3244e169-7cef-49c1-a169-4ce19f8b6992" />
 
 
